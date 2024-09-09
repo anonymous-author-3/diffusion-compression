@@ -1,9 +1,10 @@
 # Image Compression with Stable Diffusion
 
+
 ## Setup
 
 ```
-git clone TODO/url.git
+git clone https://github.com/anonymous-author-3/diffusion-compression.git
 cd diffusion-compression
 conda create env -f environment.yml
 conda activate diffusion-compression
@@ -25,3 +26,7 @@ python decompress.py --config configs/SD1.5-4.5KB.yaml --encoding_path data/comp
 ```
 
 You must use the same config file to decompress an image as was used to compress it. Otherwise, the resulting reconstruction may be randomized.
+
+## Acknowledgements
+
+Thanks to https://github.com/danieleades/arithmetic-coding for the entropy coding library.
