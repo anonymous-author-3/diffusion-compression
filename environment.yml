@@ -1,0 +1,26 @@
+name: diffusion-compression
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pytorch-cuda=12.1
+  - cupy
+  - rust
+  - pip
+  - pip:
+    - diffusers
+    - numpy
+    - Pillow
+    - PyYAML
+    - setuptools
+    - setuptools_rust
+    - scikit-image
+    - torch
+    - tqdm
+    - -e arithmetic-coding/python-bindings
