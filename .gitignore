@@ -25,6 +25,7 @@ venv/
 ENV/
 data/compressed/
 data/reconstructions/
+logs/
 
 # Rust
 /target/
