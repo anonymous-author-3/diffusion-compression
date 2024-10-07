@@ -13,7 +13,7 @@ conda activate diffusion-compression
 ## Usage
 
 ```
-python roundtrip.py --image_path data/kodak/23.png  --config configs/SD1.5-4.5KB.yaml --log_dir logs/SD1.5-4.5KB/kodak/23
+python roundtrip.py --image_path data/kodak/23.png  --config configs/SD1.5-default.yaml --log_dir logs/SD1.5-default/kodak/23
 ```
 
 ## Acknowledgements
